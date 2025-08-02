@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 # Function to load and preprocess the dataset
 def load_data():
     # Load dataset from CSV file
-    dataset = pd.read_csv("/Users/ebrietas/petprojects/machine learning/logistic_regression/diabetes.csv")
+    dataset = pd.read_csv("/Users/ebrietas/petprojects/Projects/machine learning/logistic_regression/diabetes.csv")
 
     # List of columns where 0 is not a valid value
     zero_not_accepted = ['Glucose', 'BloodPressure', 'SkinThickness', 'BMI', 'Insulin']
